@@ -10,10 +10,12 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    height: 100vh;
 }
 body *{
     font-family: "enter",sans-serif;
     color: var(--text-color);
+    
 }
 :root{
     --text-color:white;
@@ -147,4 +149,12 @@ footer{
     -webkit-background-filter:blur(4px);
     border-radius: 9999px;
 }
-
+/*media Queries*/
+@media(min-width:700px){
+    :root{
+        --bg-url:url(./assets/bg-desktop.jpg);
+    }
+    .light{
+        --bg-url:url(./assets/bg-desktop-light.jpg);
+    }
+}
