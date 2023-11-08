@@ -15,7 +15,11 @@ function change(){
     
  }
 
+}
 
- 
-
+function site(){
+   window.alert('OPPS o site ainda esta em densevolvimento✨✨');
+}
+function livro(){
+   window.alert("OPPS o livro ainda esta em densevolvimento me escreve nas plataforma digitais para saber mais📚👋");
 }
